@@ -78,13 +78,15 @@ export default function Home () {
     return (
         <>
 
-        <Head>
-            <title>sunmin's blog</title>
-        </Head>
+        {/*<Head>*/}
+        {/*    <title>sunmin's blog</title>*/}
+        {/*</Head>*/}
 
-        <main>
-            <span>Test</span>
-        </main>
+        {/*<main>*/}
+        {/*    <span>Test</span>*/}
+        {/*</main>*/}
+
+            <div>테스트 입니다.</div>
 
         </>
 

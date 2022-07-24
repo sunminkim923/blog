@@ -71,7 +71,7 @@
 //
 // export default Home
 
-import {Head} from "next/document";
+import Head from 'next/head'
 
 export default function Home () {
 

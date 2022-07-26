@@ -1,5 +1,5 @@
 {
-  "name": "blog_1",
+  "name": "blog-v2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,27 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "antd": "^4.21.7",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^12.2.3",
-    "@types/node": "18.0.6",
+    "@types/node": "18.6.1",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
-    "autoprefixer": "^10.4.7",
     "eslint": "^8.20.0",
-    "eslint-plugin-react": "^7.30.1",
-    "postcss": "^8.4.14",
-    "prettier": "2.7.1",
-    "tailwindcss": "^3.1.6",
-    "typescript": "^4.7.4"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "eslint-config-next": "12.2.3",
+    "typescript": "4.7.4"
   }
 }

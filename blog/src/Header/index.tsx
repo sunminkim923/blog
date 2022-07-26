@@ -1,7 +1,3 @@
 export default function Header(props: any) {
-  return (
-    <>
-      <div>header</div>
-    </>
-  );
+  return <div>header</div>;
 }

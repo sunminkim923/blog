@@ -2,8 +2,6 @@ import '../styles/globals.css';
 import 'antd/dist/antd.css';
 import type { AppProps } from 'next/app';
 import Layout from '../src/Layout';
-import Home from '.';
-import Header from '../src/Header';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

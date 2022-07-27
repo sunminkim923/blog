@@ -2,7 +2,12 @@ import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
 
 import type { AppProps } from 'next/app';
+import Layout from '../src/components/layout';
 
 export default function MyBlog({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }

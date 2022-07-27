@@ -1,7 +1,8 @@
 export default function Home() {
   return (
     <>
-      <div className="text-3xl bg-red-700">v3</div>
+      <title>Sunmin&#39; Blog</title>
+      <div className="text-4xl">Body</div>
     </>
   );
 }

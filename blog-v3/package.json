@@ -11,6 +11,10 @@
     "tw:build": "NODE_ENV=production postcss ./src/tailwind.css -o ./src/tailwind_out.css/"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.9.2",
+    "antd": "^4.22.0",
     "autoprefixer": "^10.4.7",
     "next": "12.2.3",
     "postcss": "^8.4.14",

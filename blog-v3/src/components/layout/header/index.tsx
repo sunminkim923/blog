@@ -1,18 +1,26 @@
-import { AiFillGithub } from 'react-icons/ai';
+import { Switch } from 'antd';
+
+import { BsMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
+import React from 'react';
 
 export default function Header() {
   return (
     <>
-      <div className=" bg-gradient-to-r from-slate-600 to-slate-500 flex justify-between items-center h-[85px]">
-        <div>안녕하세요, 김선민 입니다.</div>
+      <div className="bg-gradient-to-r from-slate-700 to-slate-600 flex justify-between items-center h-[75px]">
+        <div className="flex items-center pl-4 cursor-pointer">
+          <img src="/images/profile.jpg" className="w-10 rounded-3xl" />
+          <div className="text-white text-3xl pl-4  font-extrabold">
+            Sunmin&#39;s Blog
+          </div>
+        </div>
 
-        <a
-          href={'https://github.com/sunminkim923'}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <AiFillGithub className="mr-[20px] text-[50px] cursor-pointer" />
-        </a>
+        <div className="pr-3">
+          <Switch
+            checkedChildren={<BsFillSunFill className="ml-1.5 text-[17px]" />}
+            unCheckedChildren={<BsMoonStarsFill className="ml-1 text-[16px]" />}
+            className="w-[55px]"
+          />
+        </div>
       </div>
     </>
   );

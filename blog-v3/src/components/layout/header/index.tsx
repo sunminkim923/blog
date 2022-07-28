@@ -14,7 +14,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="pr-3">
+        <div className="pr-3 ">
           <Switch
             checkedChildren={<BsFillSunFill className="ml-1.5 text-[17px]" />}
             unCheckedChildren={<BsMoonStarsFill className="ml-1 text-[16px]" />}

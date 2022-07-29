@@ -19,6 +19,13 @@ a {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Rubik';
+  src: url('../public/font/Jua-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

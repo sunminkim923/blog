@@ -16,6 +16,12 @@ export default function Home() {
           <div className="text-center text-3xl mt-3 font-bold">
             안녕하세요. 김선민입니다.
           </div>
+          <div className="flex justify-center">
+            <img
+              src="/images/profile.jpg"
+              className="w-40 mt-6  rounded-full"
+            />
+          </div>
         </div>
       </div>
     </>

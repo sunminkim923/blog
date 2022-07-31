@@ -1,6 +1,14 @@
 import Head from 'next/head';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Home() {
+  const router = useRouter();
+
+  function onClickBlog() {
+    router.push('./list');
+  }
+
   return (
     <>
       <Head>
@@ -19,8 +27,8 @@ export default function Home() {
           </div>
 
           <div className="pl-10">
-            <div className="text-2xl pt-10">About Me.</div>
-            <div className="text-xl pt-2">
+            <div className="text-xl pt-10">About Me.</div>
+            <div className="text-lg pt-2">
               <li>
                 Github :
                 <a
@@ -32,18 +40,13 @@ export default function Home() {
                   https://github.com/sunminkim923
                 </a>
               </li>
-              <li>
+              <li className="pt-1">
                 Tech Blog :
-                <a
-                  className="pl-2"
-                  // href="https://github.com/sunminkim923"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a className="pl-2" onClick={onClickBlog}>
                   https://github.com/sunminkim923
                 </a>
               </li>
-              <li>
+              <li className="pt-1">
                 Email :
                 <a
                   className="pl-2"
@@ -55,7 +58,7 @@ export default function Home() {
                 </a>
               </li>
 
-              <li>
+              <li className="pt-1">
                 LinkedIn :
                 <a
                   className="pl-2"
@@ -67,21 +70,14 @@ export default function Home() {
                 </a>
               </li>
             </div>
-            <div className="text-2xl pt-10">테스트</div>
-            <div className="text-lg">
-              <div>
-                ReactNode는 ReactElement를 비롯하여 대부분의 자바스크립트 데이터
-                타입을 아우르는 범용적인 타입이다. 따라서 어떤 props을 받을
-                건데,
-              </div>
-              <div>
-                구체적으로 어떤 타입이 올지 알 수 없거나, 어떠한 타입도 모두
-                받고 싶다면 ReactNode로 지정해주는 것이 좋다.
-              </div>
-              <div>
-                참고로 ReactText와 ReactChild는 React를 사용할 때 큰 관련이 없기
-                때문에 곧 deprecated 될 것이라 명시되어 있다.
-              </div>
+            <div className="text-2xl pt-10">Developer</div>
+            <div className="text-xl pt-2">
+              <li>1년차 프론트앤드 주니어 개발자</li>
+              <li className="pt-1">(주)마지막삼십분 에서 근무중</li>
+              <li className="pt-1">
+                Javascript 와 React로 개발중이나 Typescript와 Next로 넘어가는 중
+              </li>
+              <li className="pt-1">UX와 UI에 관심이 많은 편</li>
             </div>
           </div>
         </div>

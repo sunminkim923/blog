@@ -6,12 +6,8 @@ export default function Home() {
       <Head>
         <title>Sunmin&#39; Blog</title>
         <link rel="icon" href="/images/profile.ico" className="rounded-3xl" />
-        <link
-          href="https://fonts.googleapis.com/css2?https://fonts.google.com/share?selection.family=Jua=Krona+One&display=optional"
-          rel="stylesheet"
-        />
       </Head>
-      <div className="flex justify-center  bg-slate-600 ">
+      <div className="flex justify-center  bg-slate-600">
         <div className="w-full md:w-[800px] bg-orange-300 ">
           <div className="text-center text-3xl mt-3 font-bold">hello</div>
           <div className="flex justify-center">
@@ -24,7 +20,7 @@ export default function Home() {
 
           <div className="pl-10">
             <div className="text-2xl pt-10">About Me.</div>
-            <div className="text-lg pt-2">
+            <div className="text-xl pt-2">
               <li>
                 Github :
                 <a
@@ -70,6 +66,22 @@ export default function Home() {
                   https://www.linkedin.com/in/sunmindev94/
                 </a>
               </li>
+            </div>
+            <div className="text-2xl pt-10">테스트</div>
+            <div className="text-lg">
+              <div>
+                ReactNode는 ReactElement를 비롯하여 대부분의 자바스크립트 데이터
+                타입을 아우르는 범용적인 타입이다. 따라서 어떤 props을 받을
+                건데,
+              </div>
+              <div>
+                구체적으로 어떤 타입이 올지 알 수 없거나, 어떠한 타입도 모두
+                받고 싶다면 ReactNode로 지정해주는 것이 좋다.
+              </div>
+              <div>
+                참고로 ReactText와 ReactChild는 React를 사용할 때 큰 관련이 없기
+                때문에 곧 deprecated 될 것이라 명시되어 있다.
+              </div>
             </div>
           </div>
         </div>

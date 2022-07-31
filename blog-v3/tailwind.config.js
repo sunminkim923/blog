@@ -2,15 +2,14 @@
 module.exports = {
   // purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
   // darkMode: false, // or 'media' or 'class'
-  content: [
-    './pages/**/*.{html,js,tsx}',
-    './src/**/*.{html,js,tsx}',
-  ],
+  content: ['./pages/**/*.{html,js,tsx}', './src/**/*.{html,js,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {},
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};

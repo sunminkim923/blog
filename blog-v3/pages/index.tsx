@@ -24,7 +24,7 @@ export default function Home() {
 
           <div className="pl-8">
             <div className="text-lg sm:text-xl pt-10">About Me</div>
-            <div className="text-md sm:text-lg pt-2">
+            <div className="text-md sm:text-lg pt-2  w-10:text-red-500">
               <li>
                 Github :
                 <a
@@ -67,12 +67,24 @@ export default function Home() {
               </li>
             </div>
 
-            <div className="text-lg sm:text-xl pt-10">Developer</div>
+            <div className="text-lg sm:text-xl pt-6">Developer</div>
             <div className="text-md sm:text-lg pt-2">
               <li>1년차 프론트앤드 주니어 개발자</li>
               <li className="pt-1">(주)마지막삼십분 에서 근무중</li>
               <li className="pt-1">Typescript와 Next.js에 관심이 높음</li>
               <li className="pt-1">UX와 UI에 관심이 많은 편</li>
+            </div>
+            <div className="text-lg sm:text-xl pt-6">Etc</div>
+            <div className="text-md sm:text-lg pt-2">
+              <li>Clean Code 정독 중</li>
+              <li className="pt-1">야구와 축구를 좋아함</li>
+              <li className="pt-1">꾸준한 뱃살 관리중</li>
+            </div>
+            <div className="text-md sm:text-lg pt-6">
+              저에 대해 더 알고 싶으시다면, <a>이력서</a>를 참고해주세요.
+            </div>
+            <div className="text-md sm:text-lg pt-2">
+              문의, 제안 등은 언제든 메일 보내주세요.
             </div>
           </div>
         </div>

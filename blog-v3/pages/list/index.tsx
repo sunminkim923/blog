@@ -6,6 +6,9 @@ export default function List() {
           <div className="text-center text-3xl mt-3 font-bold">
             리스트페이지입니다.
           </div>
+          <div className="text-center text-3xl mt-3 font-bold">
+            리스트페이지입니다.
+          </div>
         </div>
       </div>
     </>

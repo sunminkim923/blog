@@ -10,16 +10,16 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center  bg-slate-600">
-        <div className="w-screen md:w-[750px] bg-orange-300 min-h-screen">
+        <div className="w-screen md:w-[750px] bg-orange-300">
           <div className="text-center text-3xl mt-3 font-bold">
             Nice to meet you.
           </div>
           <div className="flex justify-center">
-            <img
+            {/* <img
               src="/images/profile.jpg"
               className="w-40 mt-6  rounded-full"
-            />
-            {/* <span className="w-40 h-40 mt-6 bg-slate-400 rounded-full"></span> */}
+            /> */}
+            <span className="w-40 h-40 mt-6 bg-slate-400 rounded-full"></span>
           </div>
 
           <div className="pl-8">
@@ -83,7 +83,7 @@ export default function Home() {
             <div className="text-md sm:text-lg pt-6">
               저에 대해 더 알고 싶으시다면, <a>이력서</a>를 참고해주세요.
             </div>
-            <div className="text-md sm:text-lg pt-2">
+            <div className="text-md sm:text-lg pt-2 pb-10">
               문의, 제안 등은 언제든 메일 보내주세요.
             </div>
           </div>

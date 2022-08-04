@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center  bg-slate-600">
-        <div className="w-screen md:w-[750px] bg-orange-300">
+        <div className="w-screen md:w-[750px] bg-orange-300 h-screen">
           <div className="text-center text-3xl mt-3 font-bold">
             Nice to meet you.
           </div>

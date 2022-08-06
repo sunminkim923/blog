@@ -13,7 +13,6 @@ export default function MyBlog({ Component, pageProps }: AppProps) {
         <title>Sunmin&#39; Blog</title>
         <link rel="icon" href="/images/profile.ico" className="rounded-3xl" />
       </Head>
-
       <Layout>
         <Component {...pageProps} />
       </Layout>

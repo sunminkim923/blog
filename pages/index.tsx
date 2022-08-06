@@ -15,11 +15,11 @@ export default function Home() {
             Nice to meet you.
           </div>
           <div className="flex justify-center">
-            <img
+            {/* <img
               src="/images/profile.jpg"
               className="w-40 mt-6  rounded-full"
-            />
-            {/* <span className="w-40 h-40 mt-6 bg-slate-400 rounded-full"></span> */}
+            /> */}
+            <span className="w-40 h-40 mt-6 bg-slate-400 rounded-full"></span>
           </div>
 
           <div className="pl-8">

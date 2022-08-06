@@ -11,9 +11,7 @@ export default function Home() {
     <>
       <div className="flex justify-center  bg-slate-600">
         <div className="w-screen md:w-[750px] bg-orange-300 h-screen">
-          <div className="text-center text-3xl mt-3 font-bold">
-            Nice to meet you.too
-          </div>
+          <div className="text-center text-3xl mt-3 font-bold">반갑습니다.</div>
           <div className="flex justify-center">
             {/* <img
               src="/images/profile.jpg"
